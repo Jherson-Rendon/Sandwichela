@@ -1,0 +1,89 @@
+.card{
+	width: 20rem;
+	padding: 15px;
+	color: black;
+	margin: 10px;
+}
+#logo{
+	text-align: center;
+}
+.tab-pane{
+	text-align: center;
+	color: white;
+}
+
+body{
+	background:
+	radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+	radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+	radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+	radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+	radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+	radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+	radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+	radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+	linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+	linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+	background-color: #300;
+	background-size: 100px 100px;
+}
+
+ul li a{
+	color: whitesmoke;
+	font-size: 25px;
+	/* background: #000; */
+}
+ul li a:hover{
+	color: crimson;
+}
+
+.footer {
+	background: #000000a6;
+	color:white;
+}
+
+.links li a{
+	color: white;
+	transition: color .2s;
+}
+.links li a:hover{
+	text-decoration:none;
+	color: rgb(170, 61, 10);;
+}
+.about-company i{
+	font-size: 45px;
+}
+.about-company a:hover{
+	text-decoration: none;
+}
+.about-company a {
+	color:white;
+	transition: color .2s;
+}
+.about-company a:hover{
+	color:rgb(170, 61, 10);
+}
+.location i {
+	font-size: 20px;
+}
+.copyright p {
+	border-top:1px solid rgba(255, 255, 255, 0.71)
+}
+
+.text-50 {
+    color: rgba(255, 255, 255, 0.79) !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ff8d00;
+    padding: 2px 20px;
+    height: 41px;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(230,117,70);
+    background: -moz-linear-gradient(90deg, rgba(230,117,70,0.9668242296918768) 15%, rgba(255,166,0,0.9416141456582633) 72%);
+    background: -webkit-linear-gradient(90deg, rgba(230,117,70,0.9668242296918768) 15%, rgba(255,166,0,0.9416141456582633) 72%);
+    background: linear-gradient(90deg, rgba(230,117,70,0.9668242296918768) 15%, rgba(255,166,0,0.9416141456582633) 72%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e67546",endColorstr="#ffa600",GradientType=1);
+}
